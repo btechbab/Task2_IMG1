@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* List Items */
+nav{
+    padding: 20px;
+}
+.left-items a{
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bolder;
+    font-size: 17px;    margin-right: 16px;
+
+}
+.left-items {
+    text-decoration: none;
+    display: inline;
+    margin-left: 805px;
+}
+ul h2 {
+    display: inline;
+    margin-left: -24px;
+}
+.signup-button{
+    background-color: aqua;
+    border: 0;
+    padding: 5px;
+   font-weight: bolder;
+   border: 2px solid ;
+}
+/* New Part */
+/* banner-img */
+
+.banner-img {
+    height: 500px;
+    background-size: 100% 97%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWzqxlIssdorrsUgSE2PK4TZeuyUptzHtDYA&usqp=CAU);
+    background-repeat: no-repeat;
+}
+.banner-content {
+    color: white;
+    padding-top: 193px;    
+    font-size: 25px;
+
+}
+/*button.banner-button1  */
+button.banner-button1 {
+    padding: 7px;
+    width: 9%;
+    border: 5px solid mediumvioletred;
+}
+button.banner-button2 {
+    padding: 7px;
+    width: 9%;    margin: 40px;
+    border: 5px solid rgb(70, 45, 207);
+}
+/* flexbox */
+.flexbox{
+    display: flex;
+    justify-content: space-around;
+
+}
+.center{
+    text-align: center;
+}
+.flexbox-div {
+    padding: 17px;
+    width: 342px;
+    border: 2px solid #0000001c;
+    box-shadow: aquamarine;
+    transition: box-shadow 0.5s;
+    border-radius: 8px;
+}
+.flexbox-div:hover{
+    padding: 17px;
+    width: 342px;
+    border: 2px solid #0000001c;
+    box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.473);
+    border-radius: 8px;
+}
+.flexbox-div:hover .fa-facebook:before{
+    color: rgb(8, 66, 255);
+    background-color:white;
+}
+.flexbox-div:hover .fa-telegram:before{
+    color: rgb(0, 168, 247);
+    background-color:white;
+}
+.flexbox-div:hover .fa-whatsapp:before{
+    color:#25D366;
+    background-color:white;
+}
+
+.flexboxdiv p {
+    width: 342px;
+    text-align: center;
+}
+.fa-whatsapp:before {
+    content: "\f232";
+    font-size: 75px;
+    transition: color 1s;
+}
+
+.flexbox-div .fa-facebook:before {
+    content: "\f09a";
+    font-size: 75px; transition: color 1s;
+}
+.fa-telegram:before {
+    content: "\f2c6";
+    font-size: 75px;
+    transition: color 1s;
+}
+
+/* flexbox2 images */
+.flexbox2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 62px;
+    background: #000000c9;
+    color: white;
+    text-align: center;
+}
+
+.img1 img {
+    height: 310px;
+    width: 529px;
+}
+.img2 img {
+    height: 310px;
+    width: 529px;
+}
+.flexbox2 div{
+    width: 500px;
+}   
+button.fb2button1 {
+    background: black;
+    color: wheat;
+    border: 2px solid blue;
+}
+button.fb2button2 {
+    background: black;
+    color: wheat;
+    border: 2px solid blue;
+}
+
+/* Part3 Flexbox flextbox3 */
+.flextbox3 {
+    padding: 70px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.flextbox3 div{
+    width: 500px;text-align-last: left;
+}
+.part3box1 {
+    flex: 1;
+}
+.part3box1 img {
+    width: 825px;
+    height: 450px;
+}
+
+/* Footer */
+.footer{
+    display: flex;
+    padding: 35px;    
+    background-color: #00000042;
+
+}
+
+ 
+
